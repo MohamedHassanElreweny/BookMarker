@@ -43,6 +43,19 @@ input {
     padding: 6rem;
     padding-bottom: 0;
 }
+@media (max-width: 576px)  {
+    .home{
+        padding: 1rem;
+    }
+    .books{
+        padding: 0 !important;
+    }
+    #bookmark{
+        width: 100% !important;
+        flex-direction: column;
+        text-align: center;
+    }
+}
 .text-danger{
     font-size: 14px !important;
 }
